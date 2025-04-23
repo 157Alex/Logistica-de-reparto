@@ -21,7 +21,6 @@ public class Transporte {
         this.precioHoras = precioHoras;
     }
 
-
     public double calcularTiempo(double distancia) {
         return distancia / velocidad;
     }
